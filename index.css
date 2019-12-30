@@ -1,0 +1,131 @@
+*{ /* comment session */
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Times New Roman;
+	background:#000000;
+	width:100%;
+	color: SlateGrey;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+}
+
+#container{
+	background-color: #F9F3F2;
+	margin: 1.5em 8em 0 8em;
+	max-width: 100%;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+
+#sub_container{
+	background-color:white;
+	margin: 5px 2em 5px 2em;
+
+}
+
+#form-title{
+	font-size:2em;
+	background-color: #208580;
+	margin: .5em .5em .5em .5em;
+	padding: 2em;
+	color: #ffffff;
+	text-align:center;
+}
+
+.user-details{
+    border-style: dotted;
+	margin: .5em 1.5em 0em 1.5em;
+	padding: .5em .5em 2em .5em;
+}
+
+.user-details p{
+    margin-top: 2em;
+}
+
+span{
+    color: red;
+}
+
+input{
+    margin-left: 1em;
+    width: 40em;
+}
+#input_1{width: 80em;
+}#input_2{width: 75.3em;
+}#input_3{width: 75em;
+}
+
+select{
+    margin-left: 1em;
+    color: slategrey;
+}
+
+footer{
+    background-color: #2C4E4C;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    margin: 0em 3em .5em 3em;
+    padding: 1em;
+}
+footer span{
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#signupbtn {
+width: 7em;
+margin-top: 2em;
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 0.5em;
+border-radius: 6px;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+/*
+#btn{
+    margin-top: 2em;
+} */
+
+
+/* Display the form controls on screens that are less than 768px wide */
+@media screen and (max-width: 1000px){
+  
+  #form-title{
+	font-size:1em;
+	margin:.5em .3em .5em .3em;
+	padding:1em;
+}
+	.user-details{
+	margin: .2em .5em .2em .5em;
+	padding:.2em;
+}
+
+    #input_1, #input_2, #input_3{
+    width: 11em;
+    margin-left: 0em;
+}
+    select{
+    margin-left: 0em;
+}
+#signupbtn {
+color: #fff !important;
+margin-bottom: 1em;
+font-size: 11px;
+padding: 0.4em;
+border-radius: 6px;
+border: none;
+transition: all 0.4s ease 0s;
+}
+ /*   #btn{
+    margin: 1em;
+} */
+}

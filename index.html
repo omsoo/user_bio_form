@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Aitechma Assignment</title>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="container">
+		
+			<section id="sub_container">
+				<header id="form-title">
+					<h1 > Employment Application</h1>
+				</header>
+				
+
+					 <form name="userForm" action="/redirectionpg.html" onsubmit="return userValidationForm()" method="post"> 
+						<div class="user-details"> 
+							<p >
+								<label><strong>
+                                    Name<span>*</span></strong></label> 
+                                <input id="input_1" type="text" placeholder="Enter Name" name="uname" required>
+							</p>
+				  
+							<p>
+                               <label><strong>
+                                    Email address <span>*</span></strong></label> 
+                                <input id="input_2" type="text" placeholder="Enter address" name="address" required> 
+							</p>
+				  
+							<p>
+								<label><strong>
+                                    Phone number <span>*</span></strong></label> 
+                                <input id="input_3" type="number" placeholder="+234 000 000 0000" name="phone-digit" required> 
+                            </p>
+								
+                            <p>
+								<label><strong>
+                                    Preferred contact method <span>*</span></strong></label> 
+                                <select>
+								  <option value="phone">
+                                    Phone number</option>
+								  <option value="mail">
+                                    Mail</option>
+                                    <option value="Nil" selected>
+                                    N/A</option>
+								</select>
+                            </p>
+                                
+                           <div align="center"> 
+                               <input id="signupbtn" type="submit" value="Submit" ></div>
+				  <!-- 
+                            <div id="btn" align="center">
+                            
+                                <a class="signupbtn" href="redirectionpg.html" target="_blank" rel="nofollow noopener">Submit</a>
+                                             
+                            </div>
+                    
+                            
+                           
+                            <p id="btn"> 
+								<button type="submit" class="signupbtn">
+                                    Submit</button>
+                            </p>  
+                    -->
+                            
+						</div>
+					</form>
+				
+			</section>
+
+            <section>
+            <footer>
+                © 2019 Aitechma Assignment
+                <br> by <span>Onwuajuese</span> Onyebuchi Sunday
+            </footer>
+            </section>
+		</div>
+        
+        <script src="index.js"></script>
+	</body>
+</html>
